@@ -1,4 +1,4 @@
-.home-container {
+/* .home-container {
     text-align:center;
     padding: 50px; 
     background-color: #f9f9f9; 
@@ -21,3 +21,75 @@ p {
     line-height: 1.6; 
     text-align: center;
 }
+ */
+
+/*------------------------------------------------------------------------------WELCOME PAGE----------------------------------------------------------------------------------------*/
+
+body{
+    background-color: gray;
+}
+#gethome {
+    padding-top: 80px;
+    height: 600px;
+  }
+  .welcomehome h2{
+     text-align: center;
+    font-size: 2.3em;
+    /* Additional space from the top */
+    padding-top: 20px;
+  
+  }
+  
+  .welcomehome p{
+    padding-top: 20px; 
+  
+  }
+  
+  .welcomehome i{
+    text-align: center;
+  }
+  
+  .home-container {
+    padding: 10px 0;
+    /* Centering the container itself */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .home-service {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    max-width: 1200px; 
+    width: 100%; 
+    /* Centers the container horizontally and adds space at the top */
+    margin: 20px auto 0 auto; 
+    /* Additional space from the top */
+    padding-top: 60px; 
+  }
+  
+  .our-services {
+    width: 24%; 
+    box-sizing: border-box;
+    margin: 0.5%; 
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.637);
+  }
+  
+  .our-services img {
+    width: 100%;
+    height: 150px; 
+    object-fit: cover; 
+  }
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
