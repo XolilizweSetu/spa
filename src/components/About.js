@@ -3,7 +3,7 @@ const About=()=>{
     return(
         <div>
             <h1>About Page</h1>
-            <p>This is under construction</p>
+            <p>This page is under construction</p>
         </div>
     );
 };

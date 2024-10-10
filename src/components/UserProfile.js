@@ -3,7 +3,7 @@ const userProfile=()=>{
     return(
         <div>
             <h1>User Profile Page</h1>
-            <p>This is a page is under construction</p>
+            <p>This page is under construction</p>
         </div>
     );
 };
