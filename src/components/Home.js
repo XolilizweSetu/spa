@@ -6,7 +6,7 @@ const Home = () => {
    
     return (
         <div>
-         <div class="welcomehome">
+         <div class="welcome">
         <h1>Beauty Expert At Your Fingertips</h1>
      </div>
      <div class="wrapper-main">
