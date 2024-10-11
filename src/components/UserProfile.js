@@ -4,7 +4,7 @@ function Profile() {
     const [users, setUsers] = useState([]);
     const [selectedUserIndex, setSelectedUserIndex] = useState(0);
 
-    // Simulate fetching user data
+    
     useEffect(() => {
         const fetchUserData = () => {
             setTimeout(() => {
@@ -22,7 +22,7 @@ function Profile() {
                         FavoriteService: "Makeup, Nails",
                     },
                 ]);
-            }, 1000); // Simulate a delay
+            }, 1000); 
         };
         fetchUserData();
     }, []);

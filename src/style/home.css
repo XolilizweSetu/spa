@@ -1,29 +1,4 @@
-/* .home-container {
-    text-align:center;
-    padding: 50px; 
-    background-color: #f9f9f9; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    max-width: 600px; 
-    margin: 20px auto; 
-}
 
-h1 {
-    color: #333; 
-    font-size: 2.5rem; 
-    text-align: center;
-    padding-top: 50px;
-}
-
-p {
-    color: #666; 
-    font-size: 1.2rem; 
-    line-height: 1.6; 
-    text-align: center;
-}
- */
-
-/*------------------------------------------------------------------------------WELCOME PAGE----------------------------------------------------------------------------------------*/
 
 body{
     background-color: gray;
@@ -35,7 +10,6 @@ body{
   .welcomehome h2{
      text-align: center;
     font-size: 2.3em;
-    /* Additional space from the top */
     padding-top: 20px;
   
   }
@@ -51,7 +25,6 @@ body{
   
   .home-container {
     padding: 10px 0;
-    /* Centering the container itself */
     display: flex;
     justify-content: center;
   }
@@ -62,9 +35,7 @@ body{
     flex-wrap: wrap; 
     max-width: 1200px; 
     width: 100%; 
-    /* Centers the container horizontally and adds space at the top */
     margin: 20px auto 0 auto; 
-    /* Additional space from the top */
     padding-top: 60px; 
   }
   
